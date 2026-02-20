@@ -11,15 +11,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css" .css">
+    <link rel="stylesheet" href="style.css">
     <title>TechWave</title>
 </head>
 
 <body>
+    <!-- header section start -->
     <header class="">
         <!-- nav-section start -->
         <nav class="flex items-center justify-between bg-[#1A0B2E] px-10 py-3 text-white border-b border-[#412567]">
-            <h2 class="text-3xl font-bold">Tech<span class="bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]
+            <h2 class="text-3xl font-bold cursor-pointer">Tech<span class="bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]
 bg-clip-text text-transparent">wave</span></h2>
             <ul class="space-x-5 hidden sm:flex">
                 <li><a href="">About</a></li>
@@ -53,7 +54,8 @@ bg-clip-text text-transparent">wave</span></h2>
                         <button
                             class="py-3 px-8 font-bold rounded-full text-black bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:scale-105 transition-transform">
                             <i class="fa-brands fa-spotify"></i> Listen on Spotify </button>
-                        <button class="py-3 px-8 font-bold border-[#00FF88] border rounded-full text-[#00FF88]"><i
+                        <button
+                            class="py-3 px-8 font-bold border-[#00FF88] border rounded-full text-[#00FF88] hover:bg-amber-50 border-white hover:text-black transition duration-300"><i
                                 class="fa-solid fa-envelope"></i> Subscribe</button>
                     </div>
                 </div>
@@ -61,6 +63,9 @@ bg-clip-text text-transparent">wave</span></h2>
         </div>
         <!-- banner-section end -->
     </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
     <main>
         <!-- About the Podcast -->
         <section class="bg-[#1A0B2E] text-white pb-20">
@@ -102,31 +107,37 @@ bg-clip-text text-transparent">wave</span></h2>
             <h1 class="text-5xl font-bold text-white text-center pb-10">Why Choose TechWave</h1>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 sm:px-5">
                 <div class="bg-[#351165] row-span-2 px-10 py-3.5 rounded-3xl">
-                    <img class="mt-20 w-15" src="./assets/headphone.png" alt="">
+                    <img class="mt-20 w-15" src="./assets/headphone.png"
+                        alt="Headphone icon representing premium audio">
                     <h3 class="text-2xl font-bold py-4">Premium Audio Quality</h3>
-                    <p class="text-[#a89fb4]">Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                    <p class="text-[#a89fb4]">Experience crystal-clear sound with professional-grade recording equipment
+                        and expert audio
                         engineering. Every episode is mastered for optimal listening across all devices and platforms.
                     </p>
                 </div>
                 <div class="col-span-2 bg-[#351165] px-10 py-10 rounded-3xl">
-                    <img src="./assets/device.png" alt="">
+                    <img src="./assets/device.png"
+                        alt="Mobile and tablet devices showing a podcast listening interface">
                     <h3 class="text-2xl font-bold py-4">Mobile Friendly</h3>
-                    <p class="text-[#a89fb4]">Listen on the go with seamless mobile experience and offline downloads.</p>
+                    <p class="text-[#a89fb4]">Listen on the go with seamless mobile experience and offline downloads.
+                    </p>
                 </div>
                 <div class="col-span-2 bg-[#351165] px-10 py-10 rounded-3xl">
-                    <img src="./assets/location.png" alt="">
+                    <img src="./assets/location.png" alt="Global community location icon">
                     <h3 class="text-2xl font-bold py-4">Global Community</h3>
                     <p class="text-[#a89fb4]">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
                 <div class="col-span-2 bg-[#351165] px-10 py-10 rounded-3xl">
-                    <img src="./assets/location.png" alt="">
+                    <img src="./assets/Icon (Stroke).png" alt="Exclusive interviews icon">
                     <h3 class="text-2xl font-bold py-4">Exclusive Interviews</h3>
-                    <p class="text-[#a89fb4]">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host
+                    <p class="text-[#a89fb4]">Get unprecedented access to industry titans, startup founders, and tech
+                        visionaries. Our host
                         secures exclusive conversations you won't find anywhere else, diving deep into their journeys,
                         failures, and success strategies.</p>
                 </div>
                 <div class="bg-[#351165] px-10 py-10 rounded-3xl">
-                    <img src="./assets/Icon (Stroke).png" alt="">
+                    <img src="./assets/resource.png"
+                        alt="Rich resources icon representing show notes, transcripts, and learning materials">
                     <h3 class="text-2xl font-bold py-4">Rich Resources</h3>
                     <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
                 </div>
@@ -146,8 +157,10 @@ bg-clip-text text-transparent">wave</span></h2>
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <h2 class="text-2xl font-bold">The Future of AI in Everyday Life</h2>
-                    <p class="text-[#a89fb4]">Join us as Omar Al Zabir shares his insights on the role of social media in today's digital
+                    <p class="text-[#a89fb4]">Join us as Omar Al Zabir shares his insights on the role of social media
+                        in today's digital
                         landscape.</p>
+                    <p class="text-green-500 font-bold">105min</p>
                 </div>
                 <div class="p-5 bg-[#250D44] rounded-3xl">
                     <iframe width="100%" height="224"
@@ -156,8 +169,11 @@ bg-clip-text text-transparent">wave</span></h2>
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <h2 class="text-2xl font-bold">Building Better Habits for Remote Work</h2>
-                    <p class="text-[#a89fb4]">Practical strategies for staying productive and maintaining work-life balance in a remote
+                    <p class="text-[#a89fb4]">Practical strategies for staying productive and maintaining work-life
+                        balance in a remote
                         environment.</p>
+                    <p class="text-green-500 font-bold">85min</p>
+
                 </div>
                 <div class="p-5 bg-[#250D44] rounded-3xl">
                     <iframe width="100%" height="224"
@@ -166,32 +182,71 @@ bg-clip-text text-transparent">wave</span></h2>
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <h2 class="text-2xl font-bold">Career Growth in Tech: A Roadmap</h2>
-                    <p class="text-[#a89fb4]">Expert advice on navigating your tech career from junior developer to senior leadership roles.
+                    <p class="text-[#a89fb4]">Expert advice on navigating your tech career from junior developer to
+                        senior leadership roles.
                     </p>
+                    <p class="text-green-500 font-bold">50min</p>
+
                 </div>
             </div>
 
-            <!-- Meet the Host -->
+            <!-- Meet the Host start-->
             <section class="max-w-7xl mx-auto px-4 sm:px-5 py-10">
-                <h2 class="text-5xl font-bold text-center py-10">Meet the Host</h2>
+                <h2 class="sm:text-5xl text-3xl font-bold text-center py-10">Meet the Host</h2>
                 <div class="flex-col flex sm:flex-row items-center gap-5 px-10 py-10 rounded-3xl bg-[#250D44]">
                     <img class="w-32 h-32 rounded-full" src="./assets/host.png" alt="Host Image">
                     <div>
                         <h3 class="text-3xl font-bold pb-4">Alex Johnson</h3>
                         <p class="text-[#a89fb4]">Tech Enthusiast | Productivity Coach | Personal Growth Advocate</p>
                         <div class="flex gap-2 mt-4">
-                            <i class="fa-brands fa-linkedin-in w-10 h-10 px-2.5 py-2.5 border rounded-full bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]"></i>
-                            <i class="fa-brands fa-twitter w-10 h-10 px-2.5 py-2.5 border rounded-full bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]"></i>
-                            <i class="fa-brands fa-instagram w-10 h-10 px-2.5 py-2.5 border rounded-full bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]"></i>
-                            <i class="fa-brands fa-youtube w-10 h-10 px-2.5 py-2.5 border rounded-full bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]"></i>
+                            <i
+                                class="fa-brands fa-linkedin-in w-10 h-10 px-2.5 py-2.5 border rounded-full hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transition-all duration-300"></i>
+                            <i
+                                class="fa-brands fa-twitter w-10 h-10 px-2.5 py-2.5 border rounded-full hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transition-all duration-300"></i>
+                            <i
+                                class="fa-brands fa-instagram w-10 h-10 px-2.5 py-2.5 border rounded-full hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transition-all duration-300"></i>
+                            <i
+                                class="fa-brands fa-youtube w-10 h-10 px-2.5 py-2.5 border rounded-full hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transition-all duration-300"></i>
                         </div>
 
                     </div>
                 </div>
             </section>
+            <!-- Meet the Host end-->
         </section>
     </main>
+    <!-- main section end -->
 
+    <!-- footer section start -->
+    <footer class="bg-[url(./assets/footer-bg.png)] bg-cover bg-center bg-no-repeat text-white py-10 h-[400px]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-5 text-center flex flex-col items-center justify-center h-full">
+            <h2 class="sm:text-9xl text-4xl sm:mb-7 mb-1.5 font-bold">Tech<span class="bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)]
+bg-clip-text text-transparent">wave</span></h2>
+            <p class="text-[#a89fb4] text-center">Get the latest episodes and updates delivered straight to your inbox.
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-4  items-center gap-10 mt-4">
+                <button
+                    class="flex items-center gap-1 border border-[#412567] rounded-full py-2 px-4 hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transform-all duration-300">
+                    <i class="fa-brands fa-spotify"></i>
+                    <span>Spotify</span>
+                </button>
+                <button
+                    class="flex items-center gap-1 border border-[#412567] rounded-full py-2 px-4 hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transform-all duration-300"">
+                    <i class=" fa-brands fa-apple"></i>
+                    <span>Apple Podcasts</span>
+                </button>
+                <button
+                    class="flex items-center gap-1 border border-[#412567] rounded-full py-2 px-4 hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transform-all duration-300">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span>Google Play</span>
+                </button>
+                <button
+                    class="flex items-center gap-1 border border-[#412567] rounded-full py-2 px-4 hover:bg-[linear-gradient(90deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:text-black transform-all duration-300">
+                    <i class="fa-brands fa-amazon"></i>
+                    <span>Amazon Music</span>
+                </button>
+            </div>
+            <!-- footer section end -->
 </body>
 
 </html>
